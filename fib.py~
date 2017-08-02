@@ -1,0 +1,8 @@
+n= raw_input("Enter number of terms")
+s,l=0,1
+print s,l
+for i in range(0,n-1):
+	sum=s+l
+	print sum
+	s=l
+	l=sum
